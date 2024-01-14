@@ -66,6 +66,9 @@ img {
     color: #fff;
 }
 
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
 .navbar .nav-link:hover {
     color: var(--color-brand);
 }
@@ -167,4 +170,18 @@ img {
     background-color: var(--color-base);
     border-radius: 50px;
     font-size: 24px;
+}
+
+/*-------------------------------Cards */
+
+.card-custom .card-custom-img {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-img img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-img img {
+    transform: scale(1.1);
 }
