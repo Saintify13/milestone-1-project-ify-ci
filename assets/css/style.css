@@ -3,8 +3,8 @@
 :root {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
+    --color-base: #495057;
+    --color-base2: #343a40;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
     --sidbar2-width: 240px;
@@ -73,24 +73,28 @@ img {
     color: var(--color-brand);
 }
 
-@media screen {min-width: 992px;
+@media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
         background: linear-gradient(rgba(3, 63, 71, 0.9), rgba(3, 63, 71, 0.9)), url(../images/sidebar2-img.jpg);
         background-size: cover;
         background-position: center;
-        display: flex;
+        display: contents;
     }
 
     .navbar-brand img {
         border: 8px solid var(--color-brand);
     }
 }
+    
+@media (min-width: 576px) {
+    
+}
 
 /*---------------------------------------Home */
 
-#home {
+.home {
     margin-top: 0;
 }
 
@@ -100,7 +104,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
     padding-bottom: 40px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
@@ -130,12 +133,6 @@ img {
     border-color: var(--color-brand2);
 }
 
-.about {
-    margin-top: 20px;
-    flex: ;
-    
-}
-
 /*----------------------------Contact */
 
 #contact .form-control {
@@ -158,10 +155,6 @@ img {
 }
 
 /*----------------------------Social Icons */
-
-.social-icons {
-     
-}
 
 .social-icons a {
     width: 40px;
