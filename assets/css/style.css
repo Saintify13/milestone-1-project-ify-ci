@@ -3,13 +3,13 @@
 :root {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
-    --color-base: #495057;
-    --color-base2: #343a40;
+    --color-base: #033f47;
+    --color-base2: #022a30;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
     --sidbar2-width: 240px;
     --font-base: "Bai Jamjuree";
-}
+}    
 
 body {
     background-color: var(--color-base2);
@@ -41,17 +41,54 @@ img {
 }
 
 
+/*--------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: var(--color-base), url("../images/person-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 16px;
+    padding: 0;
+    width: 20%;
+
+}
+
+
 /*---------Navbar */
 
 .navbar {
     background: var(--color-base);
     min-height: 100vh;
-    height: 100%;
-    position: fixed;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
 }
 
 .bg-img {
-    background: var(--color-base);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
@@ -77,7 +114,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.9), rgba(3, 63, 71, 0.9)), url(../images/sidebar2-img.jpg);
+        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8));
         background-size: cover;
         background-position: center;
         display: contents;
@@ -86,6 +123,8 @@ img {
     .navbar-brand img {
         border: 8px solid var(--color-brand);
     }
+
+
 }
     
 @media (min-width: 576px) {
@@ -95,7 +134,7 @@ img {
 /*---------------------------------------Home */
 
 .home {
-    margin-top: 0;
+    margin: 0px 30px 20px 20px;
 }
 
 .full-height {
@@ -111,8 +150,8 @@ img {
 /*-----------------------------------Button*/
 
 .btn {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 12px 28px;
     font-weight: 700;
     display: flex;
@@ -124,6 +163,9 @@ img {
     background-color: var(--color-brand);
     border-color: var(--color-brand);
     color: var(--color-base);
+    margin-right: inherit;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-brand:hover,
@@ -169,6 +211,10 @@ img {
 
 /*------------------------Portfolio-------Cards */
 
+#portfolio .text-brand {
+    top: 20px;
+}
+
 .card-custom {
     width: 300px;
     height: 400px;
@@ -188,6 +234,23 @@ img {
 
 /*-------------------------------Skills */
 
-.progress-bar {
-    background-color: var(--color-brand);
+.text-brand {
+    top: 0;
+    bottom: 4px;
+    
 }
+
+.progress {
+    position: relative;
+    height: 60px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2xp 10xp;
+    color: var(--color-base2);
+    background-color: rgba(255, 255, 255, 0.2);
+}    
