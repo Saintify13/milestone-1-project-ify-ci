@@ -43,93 +43,11 @@ img {
 
 /*--------------------------------------Heading*/
 
-header {
-    margin: 0;
-}
 
-.heading {
-    margin-left: 50px;
-}
-
-.logo {
-    background: var(--color-base), url("../images/person-img.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 180px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-#nav li {
-    font-size: 16px;
-    padding: 0;
-    width: 20%;
-
-}
 
 
 /*---------Navbar */
 
-.navbar {
-    background: var(--color-base);
-    min-height: 100vh;
-    height: 40%;
-    display: flex;
-    flex-direction: row;
-}
-
-.bg-img {
-    background-repeat: no-repeat;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar .nav-link {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.navbar .nav-link.active {
-    color: var(--color-brand);
-}
-.navbar .nav-link:hover {
-    color: var(--color-brand);
-}
-
-@media (min-width: 992px) {
-    .navbar {
-        min-height: 100vh;
-        width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8));
-        background-size: cover;
-        background-position: center;
-        display: contents;
-    }
-
-    .navbar-brand img {
-        border: 8px solid var(--color-brand);
-    }
-
-
-}
-    
-@media (min-width: 576px) {
-    
-}
 
 /*---------------------------------------Home */
 
