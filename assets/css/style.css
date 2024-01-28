@@ -7,7 +7,6 @@
     --color-base2: #022a30;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
-    --sidbar2-width: 240px;
     --font-base: "Bai Jamjuree";
 }    
 
@@ -43,11 +42,58 @@ img {
 
 /*--------------------------------------Heading*/
 
+.container-fluid {
+    position: relative;
+    height: 180px;
+}
+
+.bg-color-navbar {
+    background-color: #033f47;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.navbar-nav li {
+    padding-left: 50px;
+}
+
+.name {
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.title {
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
 
 
 
 /*---------Navbar */
 
+.navbar-nav .navbar-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-brand img {
+    border: 8px solid var(--color-brand);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--color-brand);
+}
+
+@media screen (min-width: 992px); {
+    .navbar {
+        background-color: var(--color-base);
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 /*---------------------------------------Home */
 
