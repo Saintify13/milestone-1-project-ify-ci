@@ -157,4 +157,44 @@ The main colors used throughout this website are:
 The colors used offers a well balanced contrast. It give a rich and satisfactory feeling, the background color is soft, cool and smooth which gives the text and images an elevated feeling that makes them stand out.    
 
 
-   
+# Wireframes
+
+#### Home page
+
+![home page](assets/wireframes/home-page.jpg)
+
+#### About page
+
+![about page](assets/wireframes/about-page.jpg)
+
+#### Skills page
+
+![skills page](assets/wireframes/skills-page.jpg)
+
+#### Portfolio page
+
+![portfolio page](assets/wireframes/portfolio-page.jpg)
+
+#### Contact page 
+
+![contant page](assets/wireframes/contact-page.jpg)
+
+
+# Technology Used
+
+  * Gitpod was used to write and edit all codes
+  * Github was used to store all files for this project
+  * [Google Fonts](https://fonts.google.com/specimen/Bai+Jamjuree?query=bai+jamjuree) was used to used to import the font used on the site
+  * [Boxicons](https://boxicons.com/usage) was used to for all icons for this website
+  * [Visme](https://my.visme.co/editor/RGFXSEp5NDQxOTVndU03dVZtNnZuUT09Ojp2RHN1NDVlb0p5QmlOR09ISWh0REJnPT0=/layouts?template=UVYwUHdybEhYczVXUUtDNWVSU2E3dz09OjpaaG92UzlmaCtjTzcwYXJSd2VGZW9nPT0=) was used to create the wireframes
+  * Google Chrome Developer Tools was used to for debugging and testing 
+  * Lighthouse was also used for testing  
+
+
+  # Testing
+
+  ### HTML Validation Using W3C
+
+  #### Home page
+  
+
