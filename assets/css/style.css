@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100;200;300;400;500;600;700&display=swap');
+
+/*--------------------------------Colors*/
 
 :root {
     --color-body: #b6cbce;
@@ -8,7 +10,9 @@
     --color-brand: #e0f780;
     --color-brand2: #deff58;
     --font-base: "Bai Jamjuree";
-}    
+} 
+
+/*--------------------------------Basic settings*/
 
 body {
     background-color: var(--color-base2);
@@ -53,10 +57,13 @@ img {
 
 .nav-item {
     display: inline-block;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar-nav li {
     padding-left: 50px;
+    width: 18%;
 }
 
 .name {
@@ -68,8 +75,6 @@ img {
     padding-left: 50px;
     margin-bottom: 40px;
 }
-
-
 
 /*---------Navbar */
 
@@ -87,18 +92,10 @@ img {
     color: var(--color-brand);
 }
 
-@media screen (min-width: 992px); {
-    .navbar {
-        background-color: var(--color-base);
-        background-size: cover;
-        background-position: center;
-    }
-}
-
 /*---------------------------------------Home */
 
 .home {
-    margin: 0px 30px 20px 20px;
+    margin: 0px 0px 20px 0px;
 }
 
 .full-height {
@@ -125,7 +122,7 @@ img {
 
 .btn-brand {
     background-color: var(--color-brand);
-    border-color: var(--color-brand);
+    border-color: var(--color-brand2);
     color: var(--color-base);
     margin-right: inherit;
     justify-content: center;
@@ -143,7 +140,7 @@ img {
 
 #contact .form-control {
     background-color: var(--color-base);
-    border-color: var(--color-base);
+    border-color: var(--color-base2);
     color: var(--color-body);
 }
 
@@ -180,8 +177,8 @@ img {
 }
 
 .card-custom {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
 }
 
 .card-custom .card-custom-img {
@@ -208,13 +205,38 @@ img {
     position: relative;
     height: 60px;
     margin-bottom: 4px;
+    display: flex;
 }
 
 .progress-type {
     position: absolute;
     left: 0px;
     font-weight: 400;
-    padding: 3px 30px 2xp 10xp;
+    padding: 3px 30px;
     color: var(--color-base2);
     background-color: rgba(255, 255, 255, 0.2);
-}    
+}
+
+@media screen and (max-width: 600px) {
+    h1,h2,h3,h4,h5,h6 {
+        font-weight: 400;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .container-fluid {
+        position: absolute;
+        height: 180px;
+    }
+
+    .navbar-nav li {
+        padding-left: 5px;
+        padding-right: 10px;
+        width: 12%;
+        
+    }
+}
