@@ -195,6 +195,58 @@ The colors used offers a well balanced contrast. It give a rich and satisfactory
 
   ### HTML Validation Using W3C
 
+  #### W3C Header
+
+  ![w3c-header](assets/html%20validation/w3c-html-header.JPG)
+
+  #### Navigation Bar
+
+  ![navbar](assets/html%20validation/navbar.JPG)
+
   #### Home page
+
+  ![home-page](assets/html%20validation/home-html.JPG)
+
+  #### About page
+
+  ![about-page](assets/html%20validation/about-html.JPG)
   
+  #### Skills page
+
+  ![skills-page](assets/html%20validation/skills-html.JPG)
+
+  #### Portfolio page
+
+  ![portfolio-page](assets/html%20validation/portfolio-html.JPG)
+
+  #### Contact page
+
+  ![contact-page](assets/html%20validation/contact-html.JPG)
+
+  #### Footer
+
+  ![footer](assets/html%20validation/footer-html.JPG)
+
+
+### CSS Validation Using W3C
+
+![css-validation](assets/css%20validation/css-validation.JPG)
+
+
+# Deployment
+
+Ifeanyi Osuagwu portfolio website is deployed using Github Pages. The deployment was carried out in the following steps:
+
+  1. Login to Github
+  2. On the top-left corner click on the dropdown menu
+  3. on the dropdown menu click on (saintify13/milestone-1-project-ify-ci)   repository
+  4. In the saintify13 repository click on the settings tab
+  5. on the side bar, locate the Code and Automation subheading and click on 
+     Pages.
+  6. under Build and Deployment, locate Source section. Set the branch to 
+     main and the folder to root
+  7. Click on save, wait a few minutes and the website will be deployed and 
+     the url displayed on the search bar
+  8. Copy the url and paste it in a new tab, then you can view the life 
+     website. 
 
