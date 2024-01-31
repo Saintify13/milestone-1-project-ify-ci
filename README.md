@@ -232,6 +232,7 @@ The colors used offers a well balanced contrast. It give a rich and satisfactory
 
 ![css-validation](assets/css%20validation/css-validation.JPG)
 
+### Manual Testing
 
 # Deployment
 

@@ -58,8 +58,6 @@ img {
 
 .nav-item {
     display: inline-block;
-    padding: 0;
-    margin: 0;
 }
 
 .navbar-nav li {
@@ -112,8 +110,6 @@ img {
 /*-----------------------------------Button*/
 
 .btn {
-    margin-left: 0px;
-    margin-right: 0px;
     padding: 12px 28px;
     font-weight: 700;
     display: flex;
@@ -173,10 +169,6 @@ img {
 
 /*------------------------Portfolio-------Cards */
 
-#portfolio .text-brand {
-    top: 20px;
-}
-
 .card-custom {
     width: 350px;
     height: 450px;
@@ -196,12 +188,6 @@ img {
 
 /*-------------------------------Skills */
 
-.text-brand {
-    top: 0;
-    bottom: 4px;
-    
-}
-
 .progress {
     position: relative;
     height: 60px;
@@ -218,16 +204,13 @@ img {
     background-color: #ffffff33;
 }
 
+/*-------------------------------Media Queries */
+
 @media screen and (max-width: 600px) {
     h1,h2,h3,h4,h5,h6 {
         font-weight: 400;
         font-size: 24px;
         width: 100%;
-    }
-
-    img {
-        width: 100%;
-        
     }
 
     .container-fluid {
